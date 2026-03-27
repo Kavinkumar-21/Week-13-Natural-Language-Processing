@@ -1,0 +1,859 @@
+‎[26/02/25, 9:57:33 PM] K@v!n: Anybody facing slack issue? For me not able to login both desktop and browser applications ‎image omitted
+[26/02/25, 9:57:50 PM] Diviya  Fleet Team(verizon): Yes
+[26/02/25, 9:58:13 PM] Vignesh Verizon: Myself too for past twenty 20 minutes
+[26/02/25, 9:58:17 PM] Diviya  Fleet Team(verizon): Asked Deen to post in the channel
+[26/02/25, 9:58:32 PM] Vignesh Verizon: Restarted the laptop too..not working
+‎[26/02/25, 9:58:54 PM] K@v!n: I could see slack issue the ongoing incident status ‎image omitted
+[26/02/25, 9:59:49 PM] Diviya  Fleet Team(verizon): Not a system issue
+[26/02/25, 10:00:08 PM] K@v!n: @⁨Ullas Vz Manager⁩ Fyi
+[26/02/25, 10:02:08 PM] ~ Deen Jones: Luis Ramirez confirmed there’s an outage with slack. Investigation going on for fix ‎<This message was edited>
+[26/02/25, 10:19:37 PM] Joshva Verizon: FYI, Victor Brady asking affected members to raise AYS ticket… I feel it is not necessary as it seems affecting globally across regions…
+[26/02/25, 10:24:10 PM] Joshva Verizon: For Reveal- It works for me..
+I guess for Fleet, Deen slack is working… ‎<This message was edited>
+[26/02/25, 10:41:23 PM] Vignesh Verizon: For me it's not working @⁨Joshva Verizon⁩
+‎[27/02/25, 12:18:47 AM] Joshva Verizon: ‎image omitted
+[27/02/25, 12:27:01 AM] ~ Deen Jones: Now I am also facing the slack issue 😫
+‎[27/02/25, 12:27:22 AM] ~ Deen Jones: ‎image omitted
+[27/02/25, 6:14:30 PM] Anand Verizon: ‎Your security code with Anand changed.
+[27/02/25, 7:46:19 PM] Aswathama Verizon: @⁨Ullas Vz Manager⁩ @⁨Armesh Verizon⁩ we received a Sev-1 issue - work native app experience performing issue, dev team stop and restarted the IIS. Team looking the issue
+[27/02/25, 9:09:07 PM] Ullas Vz Manager: Got it. What’s the status now?
+[27/02/25, 9:23:24 PM] Aswathama Verizon: Dev team restarting the IIS in NAT servers
+[27/02/25, 9:42:22 PM] Joshva Verizon: Hey Aswath, Did we pick this issue from Alerts ? ‎<This message was edited>
+[27/02/25, 9:44:40 PM] Joshva Verizon: I just joined the war-room.. Seems restarts didn’t help…
+[27/02/25, 10:04:13 PM] Aswathama Verizon: No, in work itil channel richard posted the issue
+[27/02/25, 10:26:58 PM] Ullas Vz Manager: Hope the RCA will not point finger on us
+[27/02/25, 11:00:29 PM] Joshva Verizon: New relic alerts were triggered but not in our monitoring channels..
+‎[27/02/25, 11:01:25 PM] Joshva Verizon: I see alerts in email from 6:35 PM IST but we don’t monitor email alerts… ‎image omitted
+[27/02/25, 11:03:26 PM] Joshva Verizon: During RCA, need to ask to configure these alerts in our monitoring channels…
+[27/02/25, 11:06:48 PM] Joshva Verizon: Issue now fixed… 
+1) Work Native app login works
+2) Job are syncing properly
+
+Fix: All 5 NAT servers were restarted couple of times and did IIS app pool recycle on all 5 NAT servers twice..
+
+Dev will continue to monitor the status for next 1 hour and will report in ITIL channel.
+
+IPM message is now removed and Rachael will send notification message to leaders
+[27/02/25, 11:10:02 PM] Joshva Verizon: I notified Mark, he said he will get those alerts configured in             #work-alerts slack channel ‎<This message was edited>
+[28/02/25, 4:32:43 PM] Akshay Verizon: Hi @⁨Ullas Vz Manager⁩ @⁨Armesh Verizon⁩ 
+Sev 1 - There is Slowness in reveal EU..some ppl also experience 504 errors..team is looking into it..
+[28/02/25, 4:33:51 PM] Armesh Verizon: Thanks, Akshay. Any alerts generated for this issue ?
+[28/02/25, 4:45:40 PM] Akshay Verizon: No armesh..Mark notified in ITIL that we were getting complaints in from customer's & sales team..
+[28/02/25, 4:54:11 PM] Ullas Vz Manager: Ok
+[28/02/25, 7:03:20 PM] Akshay Verizon: Customer impact is now resolved with workaround in place..RCA is underway..
+[28/02/25, 7:03:39 PM] Ullas Vz Manager: 👍🏻
+‎[28/02/25, 7:23:42 PM] Joshva Verizon: Elon Musk comment about Verizon communications ‎image omitted
+[28/02/25, 7:25:34 PM] ~ Prince Daniel: Now that he is the right hand of trump, he’ll make sure he acquires all the govt contracts and grow his empire throughout the country and worldwide.
+[28/02/25, 7:26:27 PM] ~ Prince Daniel: And this topic was raised yesterday by elon and now it’s here, this change is imminent
+[28/02/25, 7:27:08 PM] ~ Prince Daniel: White House ku prekg padikiravana kootitu poraan sir
+[28/02/25, 7:28:18 PM] Vishnu Verizon: Today we got an official email on 
+
+to clear the “FAA contract in the news” from Genia
+[28/02/25, 7:31:34 PM] Vishnu Verizon: “That FAA system are run by L3Harris not Verizon”
+[28/02/25, 11:20:05 PM] Vishnu Verizon: https://m.economictimes.com/news/new-updates/over-80-of-it-workers-have-fatty-liver-70-are-obese-finds-a-shocking-study-on-techies/amp_articleshow/118625312.cms 😶
+[06/03/25, 12:46:24 AM] Joshva Verizon: We have same issue in Reveal EU as we had last Friday..
+Intermittent login failures and services impacted..
+
+Engaged Matt(IM) and support 
+
+War-room in progress
+[06/03/25, 12:58:51 AM] Joshva Verizon: Update !!
+Dave Cummins from Aws-ops disabled cache refresh settings as recommended by AWS, it helped to solve the issue.
+[06/03/25, 5:52:27 AM] Ullas Vz Manager: Thanks for the update. Can you update SMAX how long it to for you to reach AWS ops team
+[06/03/25, 5:53:34 AM] Joshva Verizon: Sure ullas
+[14/03/25, 9:48:42 PM] Joshva Verizon: We got reports from customers that vehicles not reporting..
+Initial investigation from Hardware identified it affects all Xirgo devices..
+Engaged Matt Herin and created smax…
+[14/03/25, 11:40:46 PM] Joshva Verizon: No significant progress yet.
+
+1) Jaguar confirmed it is not an issue with the platform end.
+
+2) Initial identification from Hw team is that the units belongs to specific geographic area is only now affected, hence the severity marked as Sev4 for now.
+
+3) It is not limited to Xirgo devices as it looks like the other devices in the same geographic area could also be affected
+
+4) Matt raised AYS ticket with VZW to verify if there is an outage on our wireless service . Awaiting response 
+
+Note : Geographical location is Gulf of Mexico Near Louisiana ‎<This message was edited>
+‎[18/03/25, 1:26:28 PM] ~ Tamilarasi Natarajan: Please make your presence and grace the occasion ‎image omitted
+[18/03/25, 3:31:09 PM] Vishnu Verizon: If you’re using chatgpt try below and be prepared not to take it personally 😬
+
+“Roast me from my previous prompts” ignore if tried already” 😬😂
+‎[18/03/25, 8:46:45 PM] ~ Swami🥳: Is this legit or a spam? Anybody received something like this? ‎image omitted
+[18/03/25, 8:47:55 PM] ~ Prince Daniel: Content seems right still that email address looks suspicious
+[18/03/25, 8:48:31 PM] ~ Swami🥳: +1
+[18/03/25, 8:49:53 PM] Diviya  Fleet Team(verizon): Legit
+[18/03/25, 8:50:11 PM] Diviya  Fleet Team(verizon): Check my awards
+[18/03/25, 8:50:22 PM] ~ Prince Daniel: That 2500 award ah dhivya
+[18/03/25, 8:50:52 PM] Diviya  Fleet Team(verizon): Award than evlo amount nu theriyla swami ku 😅
+[18/03/25, 8:51:17 PM] ~ Prince Daniel: Oh it differs ah
+[18/03/25, 8:53:08 PM] ~ Swami🥳: Its legit. Got 50$ for winning the v team day quiz🥳
+[18/03/25, 9:01:51 PM] Diviya  Fleet Team(verizon): Super
+[18/03/25, 11:36:06 PM] ~ Deen Jones: @⁨Ullas Vz Manager⁩ @⁨Armesh Verizon⁩ just fyi, powder down at my location..@⁨Vignesh Verizon⁩ and myself covering the night shift ‎<This message was edited>
+[19/03/25, 12:11:38 AM] ~ Deen Jones: Power back
+‎[20/03/25, 2:01:24 PM] Vishnu Verizon: Just came across about this - Happy international day of happiness 🙌🏻 ‎image omitted
+[25/03/25, 9:42:40 AM] Armesh Verizon: Fleet Team, We have a short KT scheduled today at noon from 1:45 to 2:15 PM. with the SRE team regarding the EKS cluster.  It is very crucial to attend the session and expect maximum participants.
+[26/03/25, 1:42:28 AM] Nagarajan Verizon: Hi @⁨Ullas Vz Manager⁩ @⁨Armesh Verizon⁩ FYI
+
+Sev 1 - Reveal US Site is down
+User may experience 504 errors when attempt to log in. 40% of users impacted
+Downtime for Reveal site is around 50 minutes.
+
+Issue caused by Auth0(External third party)
+Later Auth0 updated that fix has applied and service has been restored.
+
+Log are captured in smax and separate channel created on the same. Auth0 will provide RCA within 14 days.
+[26/03/25, 4:59:22 AM] Ullas Vz Manager: Is this identified by alerts.
+[26/03/25, 5:59:49 AM] Joshva Verizon: Yes, I see alerts got triggered
+[26/03/25, 6:00:06 AM] Armesh Verizon: Yes, Ullas, alerts started firing in site availability channel.  Issue was initially reported by sales team and then Rashad escalated this issue in IM channel.
+[26/03/25, 6:06:22 AM] Ullas Vz Manager: Yeah, saw those alerts. Did we action on it?
+[26/03/25, 6:08:42 AM] Joshva Verizon: I found no comments in the channel.. @⁨Nagarajan Verizon⁩ could give us more details about the troubleshooting done during the time…
+[26/03/25, 6:09:23 AM] Armesh Verizon: I don't see any sort of action, Ullas. Usually, the EOG team comments on each alert about the recheck.
+[26/03/25, 6:28:51 AM] Ullas Vz Manager: I understand that Kinnera was also there in the bridge till the issue is resolved. We need to get clear sequence of events for the RCA..:
+‎[26/03/25, 10:30:17 PM] Vishnu Verizon: Found one of the reasons to turn the camera on during meetings 😂😂 ‎video omitted
+[01/04/25, 3:39:59 PM] Armesh Verizon: ‎Your security code with Armesh changed.
+[04/04/25, 7:01:39 PM] Joshva Verizon: Anand Srinivasan coming to our office
+‎[04/04/25, 7:01:40 PM] Joshva Verizon: ‎image omitted
+[04/04/25, 7:02:03 PM] Diviya  Fleet Team(verizon): Wow
+[04/04/25, 7:02:25 PM] ~ Prince Daniel: Congress guy… who is also finance advisor of dmk 😁
+[04/04/25, 7:04:21 PM] Joshva Verizon: Yeah… I see him as Economist..
+His laymen articulation helped me understand finances better..
+[04/04/25, 7:06:34 PM] ~ Prince Daniel: Absolutely
+[04/04/25, 7:44:46 PM] Karthick Fleet: Tiffin Coffee stock
+[09/04/25, 7:55:36 PM] ~ Prince Daniel: https://www.facebook.com/share/v/1JANHNBX9e/?mibextid=wwXIfr
+
+Live fish eating
+[10/04/25, 12:48:48 PM] Pradeep Verizon: ‎Ullas Vz Manager added Pradeep Verizon
+[10/04/25, 12:50:04 PM] Ullas Vz Manager: Team, I am on leave today and tomorrow. Do reach out to me if anything needs my attention. Haven’t canceled today’s team meeting. You can use it to discuss anything internally and have a dry run for tomorrow’s ops review.
+[10/04/25, 12:55:59 PM] Diviya  Fleet Team(verizon): Sure Ullas 👍
+‎[12/04/25, 8:42:44 PM] Alex David Verizon (SD): ‎image omitted
+[14/04/25, 7:10:37 AM] Karthick Fleet: ‎This message was deleted.
+‎[14/04/25, 7:10:59 AM] Alex David Verizon (SD): ‎image omitted
+[14/04/25, 8:26:05 AM] Vishnu Verizon: Happy Tamil new year 🎉
+‎[14/04/25, 9:52:04 AM] ~ Swami🥳: ‎sticker omitted
+‎[15/04/25, 11:53:26 AM] ~ Prince Daniel: Different types of logs regards to K8S ‎image omitted
+[29/04/25, 7:34:23 PM] Nagarajan Verizon: @⁨Ullas Vz Manager⁩  @⁨Armesh Verizon⁩ @⁨Alex David Verizon (SD)⁩ FYI- There is issue on daily reports for US customers 
+Sev3 has been created and engaged war room
+Martin is investigating on the same.
+[29/04/25, 7:40:06 PM] Alex David Verizon (SD): Hope Rachael or Matt herrin is there ‎<This message was edited>
+[29/04/25, 8:24:58 PM] Alex David Verizon (SD): This should be kind of sev 3 
+
+CRI incident due to a change yet to confirm - CAB - 135319
+
+Matt Herrin looped in as IM created a channel 
+
+Just an overview 
+Multiple case receiving for Daily report not loading 
+Martin Villarruel stated there is small subset of customers, it is hard to stablish as not all reports and not all customer: experiencing the issue that a customer that the daily is failing the distance travel will be working and the other way a Other customer.
+Martin Villarruel- This is not a Reporting area issue, this is due to an infra update and our service is the only one that This was a DFS Change that was made, issue due to a missing role.
+[30/04/25, 12:42:30 AM] Aswathama Verizon: @⁨Ullas Vz Manager⁩ @⁨Armesh Verizon⁩ @⁨Alex David Verizon (SD)⁩  
+FYI - We received a reveal US site down alert and flagged the issue in itil channel. The site got back online after 5 minutes, so Matt asked to maintain sev1. Matt asked to keep the ticket open
+[30/04/25, 12:42:53 AM] Aswathama Verizon: Look like issue was related to auth0
+[30/04/25, 5:18:24 AM] Ullas Vz Manager: Good job in catching it @⁨Aswathama Verizon⁩
+[30/04/25, 5:24:01 AM] Aswathama Verizon: Thank you
+[02/05/25, 10:53:30 AM] Ullas Vz Manager: Team, i will be on leave starting tomorrow throughout next week. Will be very limited on mails and calls as I will be out of country. WhatsApp should be fine I guess.. Let’s stick to our schedule and expect no escalation.
+
+Give me WhatsApp call if needed…
+[02/05/25, 10:59:01 AM] Diviya  Fleet Team(verizon): Sure Ullas 👍
+[02/05/25, 11:02:43 AM] Joshva Verizon: Thanks for the heads-up Ullas!
+Noted on your leave and limited availability. We’ll stick to the plan and handle things on our end. Will reach out via WhatsApp only if absolutely necessary.
+
+Enjoy your time off and safe travels!
+[03/05/25, 3:23:39 AM] Akshay Verizon: Hi @⁨Ullas Vz Manager⁩ @⁨Armesh Verizon⁩ @⁨Alex David Verizon (SD)⁩ 
+
+Sev 3 - US - user logged out when clicking on video tab
+
+The team were able to force a redeploy which restarted the stopped task n restored service.. 
+
+Issue resolved ‎<This message was edited>
+‎[08/05/25, 11:29:14 AM] Diviya  Fleet Team(verizon): Hello team 
+
+This year's "STEM Stationery Kit drive" will take place from May 7 to May 31. 
+The goal of this initiative is to collect bags and stationery materials for the sixth, seventh, and eighth graders. 
+Please make an effort to donate any amount between 50 and 200rs , or more if that is more convenient for you. 
+Myself and swami  will be gathering and combining the funds to purchase and donate to this campaign. 
+Additionally, you can contribute the items listed below if you feel comfortable doing so. 
+This is a team activity that can be logged for volunteering hours 
+I'm looking forward to your cooperation and active involvement.
+
+Gpay number : 8015482699-Dhivya 
+
+Thanks ‎image omitted
+[08/05/25, 11:33:13 AM] Armesh Verizon: Money transferred Dhivya
+[10/05/25, 7:48:25 PM] Diviya  Fleet Team(verizon): ‎This message was deleted.
+[11/05/25, 2:44:02 AM] ~ Deen Jones: @⁨Ullas Vz Manager⁩ @⁨Alex David Verizon (SD)⁩ @⁨Armesh Verizon⁩ Received a critical case#: 09427622 from Woolsworths account - The issue is about the jobs getting unassigned automatically by api service account - it’s currently out of scope for VZI. Hence, I contacted James comerford and he advised to reach Chandru (TechM). Myself, Chandru and developer Kulai swamy are connected through slack huddle and the investigation is going on from TechM side ‎<This message was edited>
+[11/05/25, 3:11:16 AM] ~ Deen Jones: TechM found the error is coming from TDE. War room initiated through gmeet - TDE engineer (Pradheep kumar Elanghezhiyan) connected and the investigation is going on
+[11/05/25, 6:36:26 AM] Ullas Vz Manager: Ok. There was a mail from Kristen asking about the status. Just give him an update on the progress and keep Chandru on loop. What Sev is this?
+[11/05/25, 6:40:37 AM] ~ Deen Jones: Update: From TechM end 5 engineers were joined in war room and they have identified the core issue at the routecloud and trying to understand the failure reasons. 
+
+Note: the issue happening only with Woolsworths. Chandru advised to  set the severity as sev-3 and the team is working towards the resolution.
+
+Vignesh has joined the war room ‎<This message was edited>
+[11/05/25, 6:42:39 AM] Ullas Vz Manager: Ok 👍🏻
+[11/05/25, 10:25:27 AM] ~ Deen Jones: @⁨Ullas Vz Manager⁩ @⁨Armesh Verizon⁩ @⁨Alex David Verizon (SD)⁩ War room ended around 08:20 AM - The issue was about jobs getting unassigned automatically by the API service account. During investigation by development, They identified TDE was receiving empty Process IDs from the Flows_Custom_Process_U flow, causing reprocessing failures. Blair McKay from ProServ/TechServices found that missing external keys in TDE records were the root cause and applied a workaround using record IDs instead. The backlog for both cutoff and pickup flows was cleared, and the customer later confirmed some orders were getting auto-assigned again. GCS confirmed with the customer that the issue appears to be contained, but the case remains critical until full confirmation is received.
+[11/05/25, 10:26:54 AM] Armesh Verizon: Is this impact specific to Woolsworth? If yes, let's have the incident severity to 4.
+[11/05/25, 10:27:22 AM] ~ Deen Jones: yes its impacted only woolsworths..ill update the incident as sev-4 @⁨Armesh Verizon⁩ ‎<This message was edited>
+[11/05/25, 10:31:36 AM] Ullas Vz Manager: Thanks for the update Deen. Hope Kirsten is updated…
+[13/05/25, 1:22:58 PM] Vishnu Verizon: https://www.indiatoday.in/amp/technology/news/story/ibm-replaces-200-hr-roles-with-ai-agents-as-part-of-automation-push-2724043-2025-05-13
+[15/05/25, 5:19:51 AM] ~ Manikandan K: @⁨Ullas Vz Manager⁩ @⁨Armesh Verizon⁩ @⁨Alex David Verizon (SD)⁩ FYI, we got issue with IOT connector from fleet and reveal,  this issue due to sudden spike of redis ran out of memory, ingress insertor affected from GM. Currently issue got fixed.
+[15/05/25, 8:39:08 AM] Ullas Vz Manager: Thanks for the update Mani
+[18/05/25, 7:37:05 PM] ~ Deen Jones: @⁨Ullas Vz Manager⁩ @⁨Armesh Verizon⁩ @⁨Alex David Verizon (SD)⁩ Due to heavy rain in Madurai, the power has been down at my place since this evening. I’ll be connecting to the shift using an inverter, but I’m not sure how long it will last. Probably need support guys ‎<This message was edited>
+[18/05/25, 8:40:15 PM] Armesh Verizon: Fleet team, is anyone available for covering Deen?
+[18/05/25, 8:51:55 PM] Diviya  Fleet Team(verizon): @⁨Anand Verizon⁩ @⁨Karthick Fleet⁩ @⁨~Manikandan K⁩ @⁨Vignesh Verizon⁩ anyone available ?
+[18/05/25, 8:53:26 PM] Vignesh Verizon: I am out of station...so unable to support
+[18/05/25, 9:02:51 PM] Armesh Verizon: Guys, we need your support
+[18/05/25, 9:03:02 PM] ~ Manikandan K: i am available @⁨Diviya  Fleet Team(verizon)⁩ @⁨Armesh Verizon⁩
+[18/05/25, 9:03:12 PM] Diviya  Fleet Team(verizon): Great
+[18/05/25, 9:27:52 PM] ~ Deen Jones: Power came. Thank you guys
+[18/05/25, 9:30:13 PM] ~ Manikandan K: 👍
+[19/05/25, 7:13:31 PM] Ullas Vz Manager: Team, 6th floor retrofit is in agenda. Meantime, let’s start using the Citius 8th floor B wing seats. Let’s try it from tomorrow, so that the entire team can sit together…
+‎[19/05/25, 7:13:48 PM] Ullas Vz Manager: ‎image omitted
+‎[19/05/25, 7:13:49 PM] Ullas Vz Manager: ‎image omitted
+[19/05/25, 7:14:00 PM] Ullas Vz Manager: Try the above seats for tomorrow
+[19/05/25, 7:14:39 PM] Diviya  Fleet Team(verizon): Sure 👍
+[20/05/25, 7:54:22 AM] ~ Prince Daniel: Happy birthday Anand
+[20/05/25, 8:11:58 AM] Vignesh Verizon: Happy Birthday @⁨Anand Verizon⁩ bro...have a great day 🥰✨
+[20/05/25, 8:13:52 AM] Aswathama Verizon: Happy birthday @⁨Anand Verizon⁩ 🎉🎉🎉
+[20/05/25, 8:24:10 AM] Ullas Vz Manager: Birthday wishes @⁨Anand Verizon⁩
+[20/05/25, 8:52:48 AM] Vishnu Verizon: Happy birthday Anand 🎉
+[20/05/25, 9:29:38 AM] Daniel Verizon: Happy birthday @⁨Anand Verizon⁩ 🎉🥳
+[20/05/25, 9:41:18 AM] ~ Tamilarasi Natarajan: Happy Birthday @⁨Anand Verizon⁩ 🎂🎂
+[20/05/25, 9:50:54 AM] ~ Suresh: @⁨Anand Verizon⁩ Many more happy returns of the day
+[20/05/25, 10:02:18 AM] K@v!n: Happy birthday bro @⁨Anand Verizon⁩ 🎉
+[20/05/25, 10:22:09 AM] Diviya  Fleet Team(verizon): Happiest birthday @⁨Anand Verizon⁩ 🤩
+[20/05/25, 11:25:03 AM] ~ Manikandan K: happy birthday @⁨Anand Verizon⁩ bro
+[20/05/25, 11:25:16 AM] ~ Deen Jones: Happy Birthday to you @⁨Anand Verizon⁩
+[20/05/25, 12:16:39 PM] Akshay Verizon: Happy birthday @⁨Anand Verizon⁩ 🍰
+[21/05/25, 11:52:52 AM] Mohan Verizon: ‎Ullas Vz Manager added Mohan Verizon
+[21/05/25, 11:53:35 AM] Ullas Vz Manager: Welcome Mohan to the team… Mohan will be part of Service Delivery team…
+[21/05/25, 11:59:38 AM] Mohan Verizon: Thank you for adding me to this group, Ullas. 😊
+[21/05/25, 5:36:29 PM] Vishnu Verizon: https://blog.google/products/android/android-xr-gemini-glasses-headsets/
+[22/05/25, 2:44:03 PM] Vishnu Verizon: https://techcommunity.microsoft.com/blog/azurepaasblog/introducing-azure-sre-agent/4414569 👀
+‎[28/05/25, 10:16:52 AM] Vishnu Verizon: This day 5 years ago…  😬 ‎image omitted
+[28/05/25, 10:22:42 AM] Vishnu Verizon: Danny’s mindvoice enna va irukum 😜
+‎[28/05/25, 12:52:29 PM] Alex David Verizon (SD): ‎image omitted
+‎[28/05/25, 12:52:29 PM] Alex David Verizon (SD): ‎image omitted
+‎[28/05/25, 12:58:39 PM] Diviya  Fleet Team(verizon): Contribution 
+
+Armesh 1000
+Kavin 200
+Josh 200
+Dhivya 500 
+Ullas 500 
+Karthik 200
+Vignesh 200 
+Anand 200 
+Swami 500
+
+Total 3500 rs 
+
+Spent 3611 rs 
+
+@⁨Ullas Vz Manager⁩ ‎image omitted
+[28/05/25, 1:12:21 PM] Ullas Vz Manager: Excellent team, Appreciate your sincere efforts in this👏👏👏
+[29/05/25, 4:53:35 PM] Ullas Vz Manager: Team, sorry i have to miss our team meeting as i got stuck outside.
+[31/05/25, 3:07:33 PM] Karthick Fleet: ‎Your security code with Karthick Fleet changed.
+[02/06/25, 6:36:03 AM] ~ Swami🥳: ‎Ullas Vz Manager removed ~ Swami🥳
+[04/06/25, 4:30:46 AM] ~ Deen Jones: @⁨Ullas Vz Manager⁩ @⁨Armesh Verizon⁩ @⁨Alex David Verizon (SD)⁩ Received a critical case from Trugreen - Tde performance query issue - contacted Pradheep kumar from hornbill lead squad TechM and he will be joining the bridge call soon and take a look on the issue
+[04/06/25, 4:51:08 AM] ~ Deen Jones: Pradeep joined the bridge and investigation on progress
+[04/06/25, 5:16:31 AM] Ullas Vz Manager: 👍🏻
+[04/06/25, 5:16:53 AM] Ullas Vz Manager: Seems Jyoti and Pradeep joined and Jess is discussing
+[05/06/25, 6:23:13 PM] Diviya  Fleet Team(verizon): ‎POLL:
+Hi Team ,As discussed during the team meeting. There is a conflict in team meeting scheduling.  Hence Ullas has asked for our suggestions on our preferred timing
+Kindly answer the poll
+‎OPTION: Weekly -Wednesday 5:15 PM - 6 PM (1 vote)
+‎OPTION: Weekly - Thursday 4 PM - 5 PM (14 votes)
+[05/06/25, 6:45:50 PM] Ullas Vz Manager: 👍🏻
+[11/06/25, 11:32:32 AM] ‪+91 93804 11590‬: ‎Ullas Vz Manager added ‪+91 93804 11590‬
+[15/06/25, 10:10:35 AM] Ullas Vz Manager: Happy Birthday @⁨Joshva Verizon⁩ 🥳🎂🎁
+[15/06/25, 10:12:52 AM] Aswathama Verizon: Happy birthday @⁨Joshva Verizon⁩ 🎉🎉🎉🎉🎉
+[15/06/25, 10:13:24 AM] Diviya  Fleet Team(verizon): Happiest birthday Josh 🤩
+[15/06/25, 10:18:10 AM] Pradeep Verizon: Happy birthday Joshva 💐💐💐
+[15/06/25, 10:23:44 AM] Alex David Verizon (SD): Many more happy returns of the day @⁨Joshva Verizon⁩  have a blessed year ahead 🎉🎉 ‎<This message was edited>
+[15/06/25, 10:24:06 AM] Daniel Verizon: Happy birthday Josh 🎂🎉
+[15/06/25, 10:24:08 AM] Armesh Verizon: Happy born day Josh 🎂🎂🎂
+[15/06/25, 10:27:56 AM] Akshay Verizon: Happy birthday @⁨Joshva Verizon⁩ 🍰
+[15/06/25, 10:37:32 AM] Vishnu Verizon: Happy birthday Joshua 🎉
+‎[15/06/25, 10:38:26 AM] ~ Manikandan K: ‎sticker omitted
+[15/06/25, 10:41:43 AM] ~ Prince Daniel: Happy birthday josh
+[15/06/25, 10:44:51 AM] Nagarajan Verizon: Happy birthday @⁨Joshva Verizon⁩ 🎂🎂🎂
+[15/06/25, 11:03:36 AM] Mohan Verizon: Happy Birthday @⁨Joshva Verizon⁩ 🎂🎂
+Stay blessed and happy forever 🎊🎊🎉
+[15/06/25, 11:14:16 AM] Vignesh Verizon: Happy Birthday bro @⁨Joshva Verizon⁩ 🎂 🎈✨
+[15/06/25, 11:21:27 AM] ~ Tamilarasi Natarajan: Happy Birthday @⁨Joshva Verizon⁩ 🎂🎂🎂🎂
+[15/06/25, 12:14:11 PM] Karthick Fleet: Happy Birthday @⁨Joshva Verizon⁩ 🎂🎊
+[15/06/25, 12:33:46 PM] K@v!n: Happy birthday Josh 🥳
+[15/06/25, 1:54:01 PM] Joshva Verizon: Thanks a lot for all your wishes🥰 ‎<This message was edited>
+[01/08/25, 9:01:46 AM] ~ Prince Daniel: Happy birthday Danny
+[01/08/25, 9:02:07 AM] Joshva Verizon: Happy Birthday Dani 🎂
+[01/08/25, 9:09:42 AM] ~ Tamilarasi Natarajan: Happy Birthday @⁨Daniel Verizon⁩ 🎂
+[01/08/25, 9:12:39 AM] Mohan Verizon: Happiieesst Birthday Dani, Stay blessed and Happy forever 🎊🎉🎂🎊🎉 @⁨Daniel Verizon⁩
+[01/08/25, 9:16:27 AM] Armesh Verizon: Iniya pirandha nazl vazlthukkal Dani and Aswat ‎<This message was edited>
+[01/08/25, 9:17:45 AM] Ullas Vz Manager: Happy Birthday @⁨Daniel Verizon⁩ and @⁨Aswathama Verizon⁩ 🥳🎂🎁
+[01/08/25, 9:19:14 AM] Pradeep Verizon: Happy birthday to you Daniel and Aswath..💐💐💐
+[01/08/25, 9:20:34 AM] Mohan Verizon: Happiieesst Birthday Aswath, Stay blessed and Happy forever 🎊🎉🎂🎊🎉 @⁨Aswathama Verizon⁩
+[01/08/25, 9:32:17 AM] Daniel Verizon: Thank you guys❤️
+[01/08/25, 9:32:27 AM] Nagarajan Verizon: Happy birthday @⁨Aswathama Verizon⁩  and @⁨Daniel Verizon⁩ 🎂🎉💐
+[01/08/25, 9:32:57 AM] K@v!n: Happy birthday @⁨Aswathama Verizon⁩  and @⁨Daniel Verizon⁩🥳
+[01/08/25, 9:33:34 AM] ~ Prince Daniel: Happy bday Aswath
+[01/08/25, 9:37:49 AM] Joshva Verizon: Happy birthday Aswath 🎂
+[01/08/25, 9:41:26 AM] Alex David Verizon (SD): Many more happy returns of the day @⁨Daniel Verizon⁩ and @⁨Aswathama Verizon⁩ - last birthday as a bachelor 😛
+Have a blessed years ahead both 🎉🎉🎉
+[01/08/25, 9:50:39 AM] Aswathama Verizon: Thanks a lot for all your wishes❣️
+[01/08/25, 10:10:08 AM] Karthick Fleet: Happy Birthday Aswath and Danie
+[01/08/25, 10:37:02 AM] Vignesh Verizon: Happy Birthday @⁨Aswathama Verizon⁩ and @⁨Daniel Verizon⁩ ..have a great day 🥳
+[01/08/25, 10:39:31 AM] Anand Verizon: Many more happy returns of the day.. Happy birthday 🥳🎉🎊@⁨Daniel Verizon⁩ @⁨Aswathama Verizon⁩
+[01/08/25, 10:51:00 AM] Akshay Verizon: Happy Birthday @⁨Daniel Verizon⁩  and @⁨Aswathama Verizon⁩  🥳🎂
+[01/08/25, 1:30:33 PM] Vishnu Verizon: Happy birthday Danny and Aswath
+[01/08/25, 1:58:46 PM] ~ Manikandan K: Happy birthday Danny and Aswath
+[01/08/25, 2:05:03 PM] ~ Deen Jones: Happy birthday @⁨Daniel Verizon⁩
+[01/08/25, 2:15:48 PM] Diviya  Fleet Team(verizon): Happiest birthday Danny and Aswath 🤩
+[01/08/25, 2:26:51 PM] Daniel Verizon: Thank you guys 😊
+[01/08/25, 3:03:16 PM] Aswathama Verizon: Thanks a lot for all your wishes❣️
+[01/08/25, 3:20:37 PM] ~ Suresh: @⁨Aswathama Verizon⁩ @⁨Daniel Verizon⁩ Many more happy returns of the day guys
+[07/08/25, 5:10:27 PM] Alex David Verizon (SD): There is a Sev 1 issue of n going for fleet under - incident 1007956 - fleet websites are unreachable team is investing Jon Bartkovich on it will update more shortly
+[07/08/25, 7:40:05 PM] Ullas Vz Manager: @⁨Alex David Verizon (SD)⁩ , I dropped from the call. Keep me posted on the progress
+[07/08/25, 7:43:04 PM] Alex David Verizon (SD): Sure @⁨Ullas Vz Manager⁩ will do ‎<This message was edited>
+[07/08/25, 9:44:11 PM] Anand Verizon: @⁨Ullas Vz Manager⁩  the Sev 1 issue is still ongoing, cybersecurity team is currently investigating the issue alongside Jon. Provided HO to night shift @⁨Diviya  Fleet Team(verizon)⁩ is currently in the sev 1 call.
+[07/08/25, 9:45:21 PM] Diviya  Fleet Team(verizon): Acknowledged 👍
+[07/08/25, 9:50:01 PM] Alex David Verizon (SD): Thanks Anand and Vignesh for the documentation part - @⁨Diviya  Fleet Team(verizon)⁩ and @⁨~Manikandan K⁩ please take care if u have any doubts check with the transcripts it’s already enabled when the call started 
+I have informed Matt to take care of the status page 
+👍👍👍 ‎<This message was edited>
+[07/08/25, 9:50:30 PM] Diviya  Fleet Team(verizon): Sure 👍
+[07/08/25, 10:07:19 PM] Ullas Vz Manager: Good coordination guys 👍🏻
+[07/08/25, 11:28:37 PM] Diviya  Fleet Team(verizon): @⁨Ullas Vz Manager⁩
+The issue is still under investigation.
+Jon has carried out several steps, which have led to some improvement in login performance, but the issue is not fully resolved.
+[08/08/25, 2:41:10 AM] Diviya  Fleet Team(verizon): @⁨Ullas Vz Manager⁩ The incident was resolved by 18:00 UTC and DNS traffic stabilized both internal testing and customer reports  confirmed that the impact was mitigated 
+
+Issue resolved by implementing the following remediation steps:
+Implemented DNS query rate limiting
+Scaled external DNS instances to c5.18*large 
+Increased dns cache size and back end thread count
+Applied NACL rules to block high traffic IPs 
+Enabled Aws shield advances on elastic IPs 
+
+Note : VDSI was unable to open the SMAX ticket as the issue was related to security. Access rights may need to be  updated in order to view the ticket .
+The incident was resolved by Matt herrin 
+@⁨Alex David Verizon (SD)⁩ @⁨Armesh Verizon⁩ @⁨Mohan Verizon⁩ ‎<This message was edited>
+[08/08/25, 9:22:59 PM] Ullas Vz Manager: Team. What’s the Sev 2 now?
+[08/08/25, 9:23:51 PM] Pradeep Verizon: Deadlockes were there and now Stopping of the instances are done
+[08/08/25, 9:25:13 PM] Pradeep Verizon: Backlogs for Rabbitmq are huge and they are working on it
+[08/08/25, 9:31:43 PM] Pradeep Verizon: Issue is US - RabbitMQ Oregon - Cluster 1 is not processing messages.
+
+Impact : Delay in processing vehicle activity for reports and replays
+
+Sev2 going on.
+Deadlocks were there and did stopping of servers was done
+‎[08/08/25, 9:55:27 PM] Alex David Verizon (SD): Classified under sev 2 as we have around 6 million records in queue ‎image omitted
+[08/08/25, 9:56:13 PM] Alex David Verizon (SD): We created this ticket and Matt increased to sev 2 based on the impact 
+J
+[08/08/25, 9:57:54 PM] Alex David Verizon (SD): I am not sure about the percentage again whether it’s 50 to 100 or 25 to 49
+[09/08/25, 12:14:16 AM] Aswathama Verizon: The Issue has been resolved as sev 3, the issue is that a specific vehicle spamming the PTO on/off plots
+[13/08/25, 1:54:03 PM] Daniel Verizon: Happy Birthday Prince 🎂🎉🥳
+[13/08/25, 2:03:01 PM] Aswathama Verizon: Happy birthday @⁨~Prince Daniel⁩ 🎉🎉🎉
+[13/08/25, 2:18:01 PM] Vignesh Verizon: Happy Birthday @⁨~Prince Daniel⁩
+[13/08/25, 2:29:28 PM] Mohan Verizon: Happy birthday...
+Stay blessed and Happy forever 🎊🎉🎂🎉🎊@⁨~Prince Daniel⁩
+[13/08/25, 2:34:09 PM] K@v!n: Happy Birthday Prince 🎂
+[13/08/25, 2:38:28 PM] Diviya  Fleet Team(verizon): Happiest birthday ji 🤩@⁨~Prince Daniel⁩
+[13/08/25, 2:44:20 PM] ~ Manikandan K: happiest birthday je 🎈
+[13/08/25, 2:47:53 PM] Karthick Fleet: Happy birthday @⁨~Prince Daniel⁩ 🎂
+[13/08/25, 2:58:07 PM] Nagarajan Verizon: Happy birthday @⁨~Prince Daniel⁩ 🎂🎈🎊
+[13/08/25, 4:24:26 PM] Akshay Verizon: Happy birthday @⁨~Prince Daniel⁩ 🍰
+[13/08/25, 4:39:06 PM] Ullas Vz Manager: Birthday Wishes @⁨~Prince Daniel⁩
+[13/08/25, 4:39:24 PM] ~ Prince Daniel: Thank you ullas
+[14/08/25, 2:01:53 PM] Daniel Verizon: Facing Internet issues.. gave verbal Handover for Reveal
+‎[15/08/25, 7:28:49 AM] Alex David Verizon (SD): ‎video omitted
+‎[17/08/25, 8:20:18 PM] Karthick Fleet: ‎image omitted
+[17/08/25, 8:22:30 PM] Diviya  Fleet Team(verizon): Super 🤩congrats Aswath 🎉
+[17/08/25, 8:24:48 PM] ~ Prince Daniel: Vazhthukal Aswath
+[17/08/25, 8:49:08 PM] Vishnu Verizon: Congrats Aswath 🎉
+[17/08/25, 8:54:11 PM] Ullas Vz Manager: Congratulations and Best Wishes for the young couple 🎁🎁
+[17/08/25, 8:56:11 PM] Armesh Verizon: Congrats Aswath
+[17/08/25, 9:07:21 PM] ~ Deen Jones: Congratulations Aswath
+[17/08/25, 10:22:19 PM] Akshay Verizon: Congrats Aswath
+[18/08/25, 1:05:15 AM] Aswathama Verizon: Thanks everyone for the wishes 💖
+[18/08/25, 9:23:01 AM] Mohan Verizon: Congratulations Aswath 💐
+‎[18/08/25, 10:24:51 AM] Karthick Fleet: ‎image omitted
+‎[18/08/25, 10:25:55 AM] Karthick Fleet: ‎image omitted
+[19/08/25, 7:25:03 AM] Ullas Vz Manager: Team…. I am on leave today. Please reach out to me if you need anything important…
+‎[27/08/25, 7:19:03 AM] Ullas Vz Manager: Team, hope you are ready with ideas. Here is one idea suggestion approved for Hackathon ‎image omitted
+[04/09/25, 12:52:35 PM] ~ Prince Samuel: ‎Ullas Vz Manager added ~ Prince Samuel
+[04/09/25, 12:53:12 PM] Ullas Vz Manager: Welcome Prince to our team group
+[04/09/25, 1:03:15 PM] ~ Prince Samuel: Thank You Ullas 🙂
+‎[05/09/25, 6:42:30 PM] Akshay Verizon: ‎image omitted
+[10/09/25, 6:26:41 PM] Alex David Verizon (SD): Hi @⁨Ullas Vz Manager⁩ and team there is a sev 2 going in for fleet - came in as a rabbit mq issue turned out to be a 
+Tru green customers are not able to access dispatch tab and scenarios is loading very slow
+Tech M team is working on this issue - smax - 1013999
+War room is ongoing 
+Will update shortly ‎<This message was edited>
+[10/09/25, 6:49:02 PM] Ullas Vz Manager: Ok. Thanks for the update. Is it a CRI?
+[10/09/25, 6:59:26 PM] Alex David Verizon (SD): Still investigation going on so far no clue if it’s a cab related or not - issue has been identified now the tabs loading very slow dba and infra team is working for a resolution
+[10/09/25, 7:54:32 PM] Alex David Verizon (SD): Issue is still going on handed over to Matt and Vignesh is on call for updates
+[10/09/25, 8:27:33 PM] Ullas Vz Manager: Issue resolved
+[10/09/25, 8:29:28 PM] Vignesh Verizon: Yes Ullas, customer confirmed by 08:00pm IST and bridge has closed just 5 minutes ago
+[10/09/25, 8:30:20 PM] Ullas Vz Manager: Ok. Need to gather the background of this incident for Friday discussion with TechM
+[10/09/25, 8:45:33 PM] Alex David Verizon (SD): Sure ullas
+[14/09/25, 1:35:34 AM] Karthick Fleet: ‎This message was deleted.
+[14/09/25, 1:43:28 AM] Karthick Fleet: Hi @⁨Ullas Vz Manager⁩ 
+We`ve received a critical case: No jobs are appearing in the fleet for our Woolworths customer. A channel has been  created, and Barma Manohar and I are on the call. l've created SMAX 09778062 in sev4, and Barma Manohar is creating a Jira ticket. 
+Swapnil from the Skimmer team will join the call. I wil provide further updates.
+[14/09/25, 3:34:27 AM] Karthick Fleet: The problem has been rectified. The cause was identified as an update from yesterday's release, intended to remove the Mongo dependency. Kurt White restored the system, and Salesforce has been downgraded now
+[14/09/25, 7:02:12 AM] Ullas Vz Manager: Ok. Thanks for the update.
+[14/09/25, 7:02:23 AM] Ullas Vz Manager: Mani will login in few minutes
+[18/09/25, 2:21:56 PM] ~ Suresh:
+‎[18/09/25, 2:21:56 PM] ~ Suresh: ‎image omitted
+‎[18/09/25, 2:21:57 PM] ~ Suresh: ‎image omitted
+‎[18/09/25, 2:21:57 PM] ~ Suresh: ‎image omitted
+‎[18/09/25, 2:21:57 PM] ~ Suresh: ‎image omitted
+‎[18/09/25, 2:21:58 PM] ~ Suresh: ‎image omitted
+‎[18/09/25, 2:21:58 PM] ~ Suresh: ‎image omitted
+‎[18/09/25, 2:21:58 PM] ~ Suresh: ‎image omitted
+‎[18/09/25, 2:21:59 PM] ~ Suresh: ‎image omitted
+‎[18/09/25, 2:21:59 PM] ~ Suresh: ‎image omitted
+‎[18/09/25, 2:21:59 PM] ~ Suresh: ‎image omitted
+[18/09/25, 2:43:42 PM] ~ Suresh:
+‎[18/09/25, 2:43:42 PM] ~ Suresh: ‎image omitted
+‎[18/09/25, 2:43:43 PM] ~ Suresh: ‎image omitted
+‎[18/09/25, 2:43:43 PM] ~ Suresh: ‎image omitted
+[18/09/25, 2:59:18 PM] ~ Suresh:
+‎[18/09/25, 2:59:18 PM] ~ Suresh: ‎image omitted
+‎[18/09/25, 2:59:19 PM] ~ Suresh: ‎image omitted
+‎[18/09/25, 3:00:34 PM] ~ Suresh: ‎image omitted
+[22/09/25, 1:53:31 PM] ~ Prince Daniel: Well done folks @reveal team
+‎[23/09/25, 11:37:54 AM] ~ Prince Daniel: Started ‎video omitted
+‎[23/09/25, 11:41:27 AM] ~ Prince Daniel: ‎image omitted
+‎[23/09/25, 5:44:06 PM] Mohan Verizon: ‎video omitted
+‎[23/09/25, 5:44:26 PM] Mohan Verizon: ‎video omitted
+‎[23/09/25, 5:46:04 PM] Mohan Verizon: ‎video omitted
+‎[23/09/25, 5:46:44 PM] Mohan Verizon: ‎video omitted
+[28/09/25, 7:38:49 AM] Karthick Fleet: Hi Ullas,
+Manikandan has not yet logged in and has been unreachable by phone. I
+have informed Dhivya to TC shift until Manikandan logs in, thanks
+[28/09/25, 7:42:56 AM] Ullas Vz Manager: Thanks Karthick and Dhivya for covering… Mani, call me when you see this…
+[02/10/25, 10:22:49 PM] Nagarajan Verizon: ‎Your security code with Nagarajan changed.
+‎[04/10/25, 11:33:20 AM] Diviya  Fleet Team(verizon): ‎image omitted
+[04/10/25, 1:04:55 PM] Ullas Vz Manager: Yes, so it’s officially communicated. Start planning for Tue, Wed & Thu
+[04/10/25, 1:18:27 PM] Ullas Vz Manager: Block your desk accordingly in BookMySpace
+[09/10/25, 6:10:41 PM] Alex David Verizon (SD): Hi @⁨Ullas Vz Manager⁩ 
+We have a sev 3 going on for fleet 
+Severity 03 | Incident #1019950 | Fleet | EU
+Platform | EU | Scenarios Tab and other features are not working for Customers Tru green, Costco ,Aptito
+[09/10/25, 6:11:52 PM] Alex David Verizon (SD): Issue Summary: Scenarios Tab and other features are not working for Customers Tru green, Costco ,Aptito
+Current Status: Issue Identified - Currently team is investigating on the mitigation part
+Current Impact: Scenario Tab is not loading and Unable to Create new scenarios
+[09/10/25, 7:08:06 PM] Ullas Vz Manager: What’s the update now?
+[09/10/25, 7:15:24 PM] Mohan Verizon: Issue resolved Ullas. ‎<This message was edited>
+[09/10/25, 7:16:32 PM] Ullas Vz Manager: Ok. Haven’t seen the status page update yet
+[09/10/25, 7:17:28 PM] Mohan Verizon: David is working on it now. Probably will be receiving the comms  in another few minutes Ullas.
+[09/10/25, 7:29:19 PM] Ullas Vz Manager: Ok
+[09/10/25, 7:31:24 PM] Alex David Verizon (SD): Just updated the status page 
+@⁨Ullas Vz Manager⁩ 
+Issue resolved after the rabbit mq consumption has dropped 
+That was before 15 to 20 min back 
+
+Lot of confusions with this issue not sure sure about what triggered the issue - RCA has to be done ‎<This message was edited>
+[09/10/25, 7:54:51 PM] Ullas Vz Manager: Ok. Keep me posted
+[13/10/25, 11:32:50 PM] Alex David Verizon (SD): ‎Your security code with Alex David changed.
+‎[14/10/25, 3:31:52 PM] Diviya  Fleet Team(verizon): ‎image omitted
+[17/10/25, 12:30:36 PM] ~ Prince Daniel: Anyone has Verizon mediassist customer care number
+‎[17/10/25, 12:34:06 PM] Vishnu Verizon: ‎Contact card omitted
+[17/10/25, 12:35:34 PM] ~ Prince Daniel: You’re not allowed to call this number
+‎[17/10/25, 12:36:17 PM] Vishnu Verizon: ‎Contact card omitted
+‎[17/10/25, 12:37:48 PM] Vishnu Verizon: ‎image omitted
+‎[20/10/25, 9:43:05 AM] Alex David Verizon (SD): இனிய திப ஒளி திருநாள் வாழ்த்துக்கள் 🎉 ‎image omitted
+‎[20/10/25, 9:58:12 AM] Mohan Verizon: Happy Diwali 🎇🎆🎉🪔 ‎image omitted
+‎[20/10/25, 10:03:13 AM] Ullas Vz Manager: Diwali wishes to you all and family ‎image omitted
+‎[20/10/25, 10:03:14 AM] Ullas Vz Manager: ‎video omitted
+[20/10/25, 10:31:22 AM] Armesh Verizon: Wish you all happy Diwali   !!
+‎[20/10/25, 11:01:03 AM] Anand Verizon: ‎sticker omitted
+[20/10/25, 11:19:39 AM] Vishnu Verizon: Happy Diwali 🎉
+‎[20/10/25, 11:51:36 AM] Mohan Verizon: Happy Diwali 🎇🎆🎉🪔 ‎image omitted
+[20/10/25, 12:16:42 PM] Pradeep Verizon: Happy diwali...🎉🎉🎉
+[20/10/25, 1:24:09 PM] Daniel Verizon: Happy Diwali everyone 🎉
+[20/10/25, 1:24:32 PM] ~ Tamilarasi Natarajan: Happy Diwali 🎉🎉🎉🎉
+[20/10/25, 1:39:56 PM] Alex David Verizon (SD): Just an FYi there is a sev 1 going on for reveal EU and US 
+Under - 1021524 
+Reveal platform sites are down 
+Due to global AWS outage going on
+[20/10/25, 1:41:51 PM] Karthick Fleet: Happy Diwali 💥 🧨 💥
+[20/10/25, 2:40:56 PM] ~ Manikandan K: Happy Diwali everyone🎉💥
+[20/10/25, 3:09:45 PM] Alex David Verizon (SD): This is now resolved
+[20/10/25, 3:28:08 PM] ‪+91 93804 11590‬: ‎Ullas Vz Manager removed ‪+91 93804 11590‬
+[20/10/25, 10:01:17 PM] ~ Deen Jones: @⁨Ullas Vz Manager⁩ @⁨Alex David Verizon (SD)⁩ multiple users are unable to login into the fleet and I have created a new incident channel and initiated the warroom. IM - Matt herin has and Chandru soubramany were joined in the call. Jon will be joining soon..there was a dns routing issue with the Texas region and Jon has initiated the full DC FAILOVER from TX to LA. ‎<This message was edited>
+[20/10/25, 10:44:32 PM] Alex David Verizon (SD): Should be the after effects of today’s issues which we received for reveal…. It la started when US traffic opened I think do the basic checks involve IM on call should be Matt if no response post it in ITIL ent will take it tomorrow morning as I am morning shift
+[20/10/25, 10:46:41 PM] Alex David Verizon (SD): Ping the incident number will check in the morning
+[20/10/25, 10:48:06 PM] ~ Manikandan K: smax: 1021534
+[20/10/25, 10:53:54 PM] Alex David Verizon (SD): Thanks mani
+[21/10/25, 6:08:50 AM] Ullas Vz Manager: What is the current status
+[21/10/25, 6:10:42 AM] Alex David Verizon (SD): Let me check Ullas I am just going through the conversations in slack
+[21/10/25, 6:21:12 AM] Alex David Verizon (SD): It’s the same issue with the aws US east 1 still under recovery from AWS end which is the main cause of this fleet issues as well 
+After the traffic routed from TX to LA - manually enabled load balancer in EKS in Texas there was an unhealthy node which caused the traffic - it has been targeted and resolved which fixed the issue 
+Issue reported around 9.00 PM IST and resolved at 12.00 PM IST
+[21/10/25, 6:22:14 AM] Alex David Verizon (SD): Will verify the document in sometime with the smax and channels shortly
+[21/10/25, 6:49:21 AM] Ullas Vz Manager: Ok. Do review the SMAX and ensure all the informations are rightly captured
+‎[21/10/25, 8:16:03 AM] ~ Prince Daniel: ‎image omitted
+[21/10/25, 9:11:11 AM] Mohan Verizon: There is heavy rain in Guindy and the surrounding areas. Please travel safely, everyone. ‎<This message was edited>
+‎[21/10/25, 9:11:49 AM] ~ Suresh: ‎video omitted
+[21/10/25, 9:46:19 AM] Vishnu Verizon: Looks like many started thinking about hybrid or multi cloud 
+
+https://www.forbes.com/sites/christerholloman/2025/10/20/aws-outage-billions-lost-multi-cloud-is-wall-streets-solution/
+[21/10/25, 10:39:05 AM] Joshva Verizon: Maintaining our own data center again might be more effective
+[21/10/25, 10:49:08 AM] Vishnu Verizon: “Effectiveness” might differ or based on organisation requirements 
+
+But yeah future “well architecture framework” can be hybrid - partial onprem and cloud or using multi cloud provider not sure 😬
+[21/10/25, 11:02:33 AM] ~ Prince Daniel: These are rare incidents, corporate knows how to mitigate these with valid customer comms, going multicloud may help again it may help in these kind of DR situations till then it’s just spending extra money. And whenever the these type of situations arise cloud providers will suspend billing. Clients can manage these….
+[21/10/25, 11:06:29 AM] Vishnu Verizon: Yeah with current frameworks and architecture 👍
+[21/10/25, 11:06:42 AM] ~ Prince Daniel: Or within aws we can do multi region architecture with route53. Here we can avoid multicloud as well
+[21/10/25, 11:18:17 AM] Vishnu Verizon: But seems last night issue is a complete outage
+
+“The incident, attributed by AWS engineers to an issue within the EC2 internal network and later tied to a Domain Name System failure, quickly became a global systemic risk test for finance”
+
+“Global AWS internal control-plane / DNS / networking component was affected All AWS regions depended on it” ‎<This message was edited>
+‎[21/10/25, 5:59:12 PM] ~ Suresh: ‎image omitted
+[21/10/25, 9:14:44 PM] Armesh Verizon: Orange alert declared in chennai tmrw ‎<This message was edited>
+[21/10/25, 9:23:07 PM] ~ Suresh: yep
+[21/10/25, 9:30:45 PM] Armesh Verizon: Shall we consider work from home tomorrow ? @⁨Ullas Vz Manager⁩
+[21/10/25, 10:07:58 PM] Ullas Vz Manager: Please take a conscious decision tomorrow and plan your work according to the situation
+[22/10/25, 8:43:00 AM] Ullas Vz Manager: Team, considering the current weather condition, I am connecting from home today
+[22/10/25, 6:55:08 PM] Ullas Vz Manager: Team, if the weather condition continues to be favourable for tomorrow, let’s meet at office…
+[22/10/25, 6:58:32 PM] Daniel Verizon: Sure Ullas 👍🏼
+‎[24/10/25, 2:07:09 PM] Vishnu Verizon: ‎image omitted
+[24/10/25, 2:07:09 PM] Vishnu Verizon: Kindly read “Note”
+[27/10/25, 1:05:21 PM] Joshva Verizon: Does anyone know how to check network hospitals supported by Mediassist?
+[27/10/25, 1:08:14 PM] Armesh Verizon: Medassist site Josh ?
+[27/10/25, 1:08:41 PM] Joshva Verizon: Thanks Ji, Just now got information from Aswath.
+[27/10/25, 1:08:53 PM] Armesh Verizon: Great
+‎[27/10/25, 1:09:08 PM] Alex David Verizon (SD): Go to this site and select ur insurer and search for hospitals it will show the network hospitals only I think if I am not wrong ‎image omitted
+[27/10/25, 1:09:19 PM] Alex David Verizon (SD): Also verify in the hospital website once
+[28/10/25, 6:07:20 AM] Ullas Vz Manager: Good Morning Team, Considering the persistent rain, do plan your work schedules accordingly
+[29/10/25, 7:33:14 AM] Ullas Vz Manager: Team, I am taking off today. Reach out to me if you need anything
+[29/10/25, 10:18:16 PM] Pradeep Verizon: We have a Sev 1 - outage with Work portal, where customers are unable to log or pages not loading after refresh.
+
+Development team raised ticket with Microsoft. They are expecting reply in 60 mins
+
+Downdetector showing outages globally on multiple platform.
+
+CDN is not reachable and Azure is not working....and Dev is not able to do anything....
+[29/10/25, 10:19:20 PM] Pradeep Verizon: Azure portal is down which is causing the issue....
+[29/10/25, 10:22:32 PM] Armesh Verizon: Thanks Pradeep. Keep work log updated and capture the time stamps
+[29/10/25, 10:29:34 PM] Alex David Verizon (SD): This time Microsoft
+[29/10/25, 10:29:39 PM] Alex David Verizon (SD):
+‎[29/10/25, 10:29:41 PM] Alex David Verizon (SD): ‎image omitted
+‎[29/10/25, 10:29:41 PM] Alex David Verizon (SD): ‎image omitted
+[29/10/25, 10:29:52 PM] Alex David Verizon (SD): Again it’s a third party
+[29/10/25, 10:30:24 PM] Joshva Verizon: 🤣🤣🤣 AWS and Microsoft competing each other
+[29/10/25, 10:30:32 PM] Alex David Verizon (SD): Hope Matt Herrin is there
+[29/10/25, 10:31:13 PM] Mohan Verizon: Rachael is taking care of the incident
+‎[29/10/25, 10:32:28 PM] Joshva Verizon: ‎GIF omitted
+[29/10/25, 10:33:22 PM] Alex David Verizon (SD): After RCA will show which one is big nu 😆😆😆@⁨Joshva Verizon⁩
+‎[29/10/25, 10:36:29 PM] ~ Suresh: ‎sticker omitted
+[29/10/25, 10:44:24 PM] Alex David Verizon (SD): Heads up
+[29/10/25, 10:44:28 PM] Alex David Verizon (SD):
+‎[29/10/25, 10:44:30 PM] Alex David Verizon (SD): ‎image omitted
+‎[29/10/25, 10:44:30 PM] Alex David Verizon (SD): ‎image omitted
+[29/10/25, 10:44:45 PM] Alex David Verizon (SD): Us east again shows down for AWS
+[29/10/25, 10:44:52 PM] Alex David Verizon (SD): Not sure how much we are affected
+[29/10/25, 10:47:20 PM] Alex David Verizon (SD): Who is in fleet night shift @⁨~Manikandan K⁩ have an eye on our check mk
+[29/10/25, 10:47:35 PM] Diviya  Fleet Team(verizon): Sure
+[29/10/25, 10:47:41 PM] Alex David Verizon (SD): @⁨Diviya  Fleet Team(verizon)⁩
+[30/10/25, 3:18:02 AM] Pradeep Verizon: Microsoft initiated a deployment of their 'last known good' configuration  in order to fix a DNS issue which had inadvertently been deployed . Some images were not loaded. Chandru team did CDN URL change to direct blob end point to resolve issue and will change it back to CDN, once Azure is fully recovered.
+Issue resolved at 20.05 UTC
+[30/10/25, 1:09:20 PM] Vishnu Verizon:
+‎[30/10/25, 1:09:21 PM] Vishnu Verizon: From chatgpt 
+
+Reason for recent cloud outage 
+
+ChatGPT be like: Theri intermission “yara venalum irukalam avan peru “AI” kuda irukalam” ‎image omitted
+‎[30/10/25, 1:09:22 PM] Vishnu Verizon: ‎image omitted
+‎[30/10/25, 1:09:22 PM] Vishnu Verizon: ‎image omitted
+[07/11/25, 8:08:14 AM] ~ Prince Daniel: https://www.verizon.com/about/news/verizon-business-and-aws-new-fiber-deal
+[18/11/25, 9:53:55 PM] Vishnu Verizon: https://m.economictimes.com/news/international/us/cloudflare-outage-hits-these-major-platforms-which-sites-are-down-see-complete-list-of-services-affected-worldwide-why-cloudflare-matters-when-will-it-be-back-up-x-chatgpt-spotify-canva-perplexity-report-failures-downdetector-dns-services/amp_articleshow/125412906.cms
+[18/11/25, 9:56:49 PM] Alex David Verizon (SD): Yes
+[18/11/25, 9:57:51 PM] Alex David Verizon (SD):
+‎[18/11/25, 9:57:52 PM] Alex David Verizon (SD): ‎image omitted
+‎[18/11/25, 9:57:52 PM] Alex David Verizon (SD): ‎image omitted
+‎[18/11/25, 9:57:53 PM] Alex David Verizon (SD): ‎image omitted
+‎[18/11/25, 10:05:09 PM] Vishnu Verizon: Routine change 😂 ‎image omitted
+[18/11/25, 10:08:42 PM] Ullas Vz Manager: Another outage this year due to a major third party
+[18/11/25, 10:21:32 PM] Vishnu Verizon: Sadly yes 😶
+[21/11/25, 3:51:49 PM] Daniel Verizon: ‎Your security code with Daniel changed.
+[25/11/25, 11:06:27 AM] Vignesh Verizon: ‎Your security code with Vignesh Verizon changed.
+[26/11/25, 10:38:34 AM] Vishnu Verizon: https://www.livemint.com/technology/tech-news/nano-banana-pro-is-now-generating-fake-aadhaar-and-pan-cards-heres-what-we-found/amp-11764000416249.html
+
+“To be fair to Google, the Nano Banana Pro generated images come with a Gemini watermark, but that isn't too hard to get rid of.”
+
+👀
+[03/12/25, 7:16:42 AM] Ullas Vz Manager: Team, plan your travel to office based on rain…
+[03/12/25, 7:26:43 PM] Vishnu Verizon: ‎This message was deleted.
+[03/12/25, 7:26:53 PM] Vishnu Verizon: https://aws.amazon.com/blogs/aws/amazon-cloudwatch-introduces-unified-data-management-and-analytics-for-operations-security-and-compliance/
+[03/12/25, 9:06:41 PM] Ullas Vz Manager: Team, as the rain continues, we will do WFH for rest of the week…
+[04/12/25, 11:03:51 PM] ~ Manikandan K: My checkmk access was deleted, so I raised a Checkmk request through the Access Hub. Currently, I’m unable to log in to Checkmk because my password has expired and internal link also not working. I’ve already posted this issue in techsysadmin. If anyone is available, please join now, as I’m unable to monitor the Checkmk dashboard.
+[05/12/25, 12:38:47 AM] ~ Manikandan K: ldap Password reseted by jon now i can able to see the board
+[05/12/25, 7:12:08 AM] Ullas Vz Manager: I have approved your access hub request. But not sure why it got removed
+[05/12/25, 7:12:27 AM] Ullas Vz Manager: Good
+[05/12/25, 2:46:22 PM] Vishnu Verizon: https://m.economictimes.com/news/international/global-trends/cloudflare-down-again-netizens-flood-x-with-complaints/amp_articleshow/125785388.cms
+[11/12/25, 9:53:41 PM] Vignesh Verizon: ‎Your security code with Vignesh Verizon changed.
+[12/12/25, 10:03:04 AM] Ullas Vz Manager: ‎Your security code with Ullas changed.
+[15/12/25, 8:28:07 PM] Ullas Vz Manager: ‎Ullas Vz Manager was added
+[15/12/25, 6:22:41 PM] Ullas Vz Manager: Hello Team,
+
+As I officially wrap up my time here (I submitted my assets today, and my access will be ending shortly), it's time for me to say goodbye to this group.
+
+I wanted to take a moment to express my sincere gratitude for the incredible support and collaboration we've shared. I have genuinely learned so much from each and every one of you, and I truly hope that my time leading the team has helped foster some positive growth and progress for you all.
+
+I was delighted to hear about the smooth transition and placement in TechM for our affected engineers—that is fantastic news and ensures your valuable work can continue without any interruption.
+
+As a final parting thought, I’ll share a favorite working style: *Give your 100% to what you commit. If you can’t, don’t commit.* 
+It’s a principle that has always served me well.
+
+Please do keep in touch! Feel free to connect with me on LinkedIn, and if you feel I made a positive impact, I would genuinely appreciate a recommendation.
+
+Thank you again for everything, and I wish you all the very best in your future endeavors
+[15/12/25, 6:33:32 PM] Vishnu Verizon: Thank you, Ullas, for everything you have given to us. Your leadership and support have truly made a difference. Wishing you great success 🙏
+[15/12/25, 6:35:59 PM] Diviya  Fleet Team(verizon): My sincere thanks for your invaluable guidance, support and encouragement. You will truly be missed.
+Wishing you all the very best.🙏
+[15/12/25, 6:37:46 PM] Mohan Verizon: Thank you for your support and guidance, Ullas. Wishing you continued success in all your future endeavors. 🙏🏽 ‎<This message was edited>
+[15/12/25, 6:43:22 PM] Anand Verizon: Thank you Ullas for support and guidance.
+Wishing you great success👍
+[15/12/25, 6:43:59 PM] Daniel Verizon: Thank you ullas for everything youve done for the team.. it’s been an immense pleasure working with you.. wishing you all the success.. 🙏🏽
+[15/12/25, 6:44:34 PM] Joshva Verizon: I truly appreciate your kind words, guidance, and the support you’ve shown throughout this journey.
+
+Working under your leadership has been a great learning experience for me, and I’m grateful for the trust and opportunities you’ve given the team during challenging times. Thanks a lot
+[15/12/25, 6:46:04 PM] ~ Tamilarasi Natarajan: Thanks for your relentless support and guidance throughout our phase of work here in Verizon. And wishing you all success in the attempts you do. Hope we meet you again. The project will miss you and ofcourse we people too 🙏🏻🙏🏻🙏🏻🙏🏻
+[15/12/25, 6:56:13 PM] Karthick Fleet: Thank you so much Ullas, for your leadership and support during your time here. I will always remember your insightful approach to management. I know you will be a true asset in your upcoming endeavor. Wishing you a wonderful time and genuine success.
+[15/12/25, 7:38:22 PM] Pradeep Verizon: Thanks ullas for the kind leadership and will be missing to work under you...wish you a great career going ahead ...
+[15/12/25, 7:44:40 PM] Nagarajan Verizon: Its been an honor working under your guidance Ullas. Thank you for everything. All the best in your next endeavor👍 ‎<This message was edited>
+[15/12/25, 8:40:03 PM] K@v!n: Thank you Ullas for every support and guidance. Wishing you all the success.
+[15/12/25, 8:47:27 PM] ~ Suresh: Dear Ullas... Thank you so much for your wonderful support.. Under your direction, memorable moments occurred. Enjoy yourself greatly ahead of the upcoming events.
+
+Thank you
+[15/12/25, 8:51:30 PM] Diviya  Fleet Team(verizon): Guys FYI 
+Ullas has left the group
+[15/12/25, 8:52:49 PM] Daniel Verizon: 😓😓😭😭😭
+[15/12/25, 9:24:08 PM] Akshay Verizon: Thank you ullas for your support and guidance.. 
+Wishing you all the very best👍
+[16/12/25, 10:04:06 AM] Diviya  Fleet Team(verizon): Hi Team
+We’re planning a send-off for Ullas, most likely on Friday. Not yet decided 
+As a team, we thought of getting him a thoughtful  gift. We feel that a contribution of ₹1,000 per person would help us to get a decent gift however, this is entirely optional and based on individual comfort
+We’ll finalize the gift based on the total amount collected. Please try to send your contribution before Thursday 
+
+Gpay /phonepe 8015482699
+[16/12/25, 10:06:05 AM] Diviya  Fleet Team(verizon): Received Josh
+[16/12/25, 10:13:04 AM] Armesh Verizon: Sent Dhivya
+[16/12/25, 10:13:11 AM] Diviya  Fleet Team(verizon): Received 👍
+[16/12/25, 10:13:59 AM] Alex David Verizon (SD): Sent @⁨Diviya  Fleet Team(verizon)⁩
+[16/12/25, 10:14:39 AM] Vignesh Verizon: Sent @⁨Diviya  Fleet Team(verizon)⁩
+[16/12/25, 10:15:05 AM] Diviya  Fleet Team(verizon): Received @⁨Alex David Verizon (SD)⁩ @⁨Vignesh Verizon⁩ 👍
+[16/12/25, 10:16:13 AM] ~ Manikandan K: sent
+[16/12/25, 10:16:42 AM] Diviya  Fleet Team(verizon): Received
+[16/12/25, 10:18:59 AM] Aswathama Verizon: Sent
+[16/12/25, 10:19:26 AM] Diviya  Fleet Team(verizon): Received @⁨Aswathama Verizon⁩ @⁨Anand Verizon⁩
+[16/12/25, 10:20:09 AM] Daniel Verizon: Sent
+[16/12/25, 10:20:20 AM] Diviya  Fleet Team(verizon): Received
+[16/12/25, 10:30:47 AM] Akshay Verizon: Sent
+[16/12/25, 10:56:41 AM] Pradeep Verizon: Sent
+[16/12/25, 11:00:23 AM] Diviya  Fleet Team(verizon): Received @⁨Akshay Verizon⁩ @⁨Pradeep Verizon⁩
+‎[16/12/25, 12:23:09 PM] Diviya  Fleet Team(verizon): ‎image omitted
+[16/12/25, 12:23:09 PM] Diviya  Fleet Team(verizon): If you are receiving this error while sending it to me please transfer the amount to Armesh’s number 
+[16/12/25, 12:23:41 PM] Diviya  Fleet Team(verizon): 9940663484
+[16/12/25, 1:17:48 PM] K@v!n: Sent
+[16/12/25, 1:21:47 PM] Mohan Verizon: Sent 👍🏽
+[16/12/25, 3:47:02 PM] Vishnu Verizon: Sent Dhivya
+[16/12/25, 4:34:40 PM] Nagarajan Verizon: Sent to Armesh
+[16/12/25, 9:05:13 PM] Diviya  Fleet Team(verizon): Planning to call Ullas on Thursday since most of us will be submitting assets that day
+Everyone is welcome
+Kindly let me know who all can join around 11 AM on Thursday.
+Please confirm
+[16/12/25, 9:06:21 PM] Joshva Verizon: I came to home town hence not availale
+[16/12/25, 9:06:47 PM] ~ Manikandan K: me night shifts will try
+[16/12/25, 9:07:53 PM] Diviya  Fleet Team(verizon): And Those who haven’t sent the money yet, please share your contribution by tomorrow afternoon so that we can get the gift by evening.
+[16/12/25, 9:09:39 PM] Mohan Verizon: I can come on Thursday
+[17/12/25, 11:34:34 AM] Diviya  Fleet Team(verizon): Hi team,
+We’ve invited Ullas for lunch tomorrow at Layalee, Guindy, at 1:00 PM.
+We’ll have lunch together and give him a gift 
+Please let me know who all can make it
+[17/12/25, 11:40:56 AM] Diviya  Fleet Team(verizon): https://share.google/QkrXKHsxaq6dUn2NA
+[17/12/25, 11:42:07 AM] K@v!n: I’m in
+[17/12/25, 11:44:43 AM] Diviya  Fleet Team(verizon): Armesh 
+Dhivya 
+Anand 
+Kavin
+Karthik
+Aswath
+Mohan ‎<This message was edited>
+[17/12/25, 11:57:35 AM] Joshva Verizon: I feel it would be nice if the date gets postponed and all members from our team can attend, as it is a sudden plan I couldn’t make.. ‎<This message was edited>
+[17/12/25, 12:44:59 PM] Armesh Verizon: ‎POLL:
+Guys , let me know the best day to meet up with Ullas. Are we OK with Thursday or Friday ? Let me start a poll feel free to mention your convenient day.
+‎OPTION: Thursday (0 votes)
+‎OPTION: Friday (11 votes)
+[17/12/25, 2:47:05 PM] Armesh Verizon: Based on the poll result we got majority on Friday, so far. Shall we conclude for Friday?
+[17/12/25, 2:50:47 PM] Diviya  Fleet Team(verizon): Ok ji
+[17/12/25, 2:53:26 PM] Armesh Verizon: Ok guys, let's fix it as Friday.
+[17/12/25, 2:55:01 PM] Armesh Verizon: Any suggestions on Restaurants. I got comments as Layale is expensive and we have to spend most of the contribution in lunch. Anybody have any suggestions about a good ambience and budget friendly Fine dining restaurant ?
+[17/12/25, 2:56:02 PM] Armesh Verizon: Few based on feedback was Chennai Durbar, Sukku bhai , any other places ? ‎<This message was edited>
+[17/12/25, 3:11:16 PM] Joshva Verizon: My suggestion would be we can keep collected amount only for gift and divide the lunch amount among us.
+[17/12/25, 3:11:30 PM] Joshva Verizon: I’m ok with any restaurant ‎<This message was edited>
+[17/12/25, 3:12:07 PM] Mohan Verizon: SS briyani , Thalappakatti...
+[17/12/25, 3:14:10 PM] Alex David Verizon (SD): I would suggest it will be a expense for everyone to spend as holiday season and kind of month end for me literally 🧐😔☹️ it’s my personal opinion
+[17/12/25, 3:16:29 PM] Joshva Verizon: I just got to know Ullas birthday is  on Dec19th. We are also planning on the same day..
+[17/12/25, 3:17:10 PM] Armesh Verizon: Will he come on his birthday 🤔
+[17/12/25, 3:18:11 PM] Joshva Verizon: Yes we need to check his availability ‎<This message was edited>
+[17/12/25, 3:19:27 PM] Armesh Verizon: Lets finalize restaurant and check with Ullas for his availability on Friday.
+[17/12/25, 3:20:23 PM] Diviya  Fleet Team(verizon): I’m ok with Chennai darbar
+[17/12/25, 3:20:37 PM] Joshva Verizon: I’m ok with any restaurant
+[17/12/25, 3:22:50 PM] Armesh Verizon: Any opinion guys ?
+[17/12/25, 3:23:19 PM] Armesh Verizon: Are we fine with Chennai Darbar ?
+[17/12/25, 3:36:01 PM] Akshay Verizon: @⁨Armesh Verizon⁩ plz don't count me for lunch.. As I don't eat in multi cuisine..
+[17/12/25, 3:38:01 PM] Daniel Verizon: I’m in trichy too.. i couldnt join as well.. exclude me too..
+[17/12/25, 5:42:02 PM] Pradeep Verizon: I am travelling to my hometown tomorrow night and unable to join
+[17/12/25, 6:04:00 PM] Armesh Verizon: Spoke to Ullas and he will meet us on Friday.
+[17/12/25, 6:05:28 PM] Diviya  Fleet Team(verizon): https://share.google/m5ijMQLlBHqXsKo69
+[17/12/25, 6:10:27 PM] Vignesh Verizon: At what time exactly can we gather there?
+[17/12/25, 6:12:51 PM] Armesh Verizon: Lets meetup by 1 PM Vignesh
+[17/12/25, 6:14:44 PM] Diviya  Fleet Team(verizon): 17 members are assembling.
+Do let me know if I’m missing anyone
+
+Ullas 
+Armesh 
+Dhivya 
+Anand 
+Kavin
+Karthik
+Prince Samuel 
+Aswath
+Mohan
+Joshva 
+Vignesh 
+Mani 
+David Alex 
+Akshay 
+Vishnu 
+Tamil 
+Suresh
+[17/12/25, 6:20:06 PM] Diviya  Fleet Team(verizon): Can we go with an Amazon voucher?
+Please feel free to share if anyone has other suggestions
+[17/12/25, 6:20:50 PM] Karthick Fleet: Watch
+[17/12/25, 6:22:04 PM] Diviya  Fleet Team(verizon): It seems he mostly uses a smartwatch nowadays 
+Smartwatch rombha costly coming
+[17/12/25, 6:23:46 PM] Karthick Fleet: Ok
+[17/12/25, 6:56:14 PM] Armesh Verizon: Yeah, let's better proceed with Voucher and let Ullas buy some thing he likes.
+[17/12/25, 7:00:39 PM] ~ Tamilarasi Natarajan: Yes
+[17/12/25, 7:00:56 PM] ~ Tamilarasi Natarajan: Venue please
+[17/12/25, 7:11:48 PM] Vignesh Verizon: Venue
+[17/12/25, 7:53:09 PM] Diviya  Fleet Team(verizon): Venue : https://share.google/UACN137hGCyesKJTn ‎<This message was edited>
+[17/12/25, 7:53:50 PM] Diviya  Fleet Team(verizon): Friday 1 PM
+[17/12/25, 7:59:07 PM] Diviya  Fleet Team(verizon): Overall amount collected 15,000 Rs 
+12,000 - voucher 
+3,000 - cake + remaining balance we can use for lunch 
+
+Is it okay for everyone?
+‎[18/12/25, 7:49:56 AM] ~ Suresh: ‎video omitted
+[19/12/25, 12:54:45 PM] Mohan Verizon: https://maps.app.goo.gl/ntTq6JEuADTgr1L98?g_st=aw
+
+Restaurant location 📍
+[19/12/25, 1:06:34 PM] Armesh Verizon: Ullas and myself reached the venue
+[19/12/25, 1:16:31 PM] Diviya  Fleet Team(verizon): 5 mins away
+‎[19/12/25, 3:12:31 PM] Karthick Fleet: ‎image omitted
+[19/12/25, 3:31:31 PM] Karthick Fleet:
+‎[19/12/25, 3:31:31 PM] Karthick Fleet: ‎image omitted
+‎[19/12/25, 3:31:42 PM] Karthick Fleet: ‎video omitted
+‎[19/12/25, 3:31:43 PM] Karthick Fleet: ‎image omitted
+‎[19/12/25, 3:31:43 PM] Karthick Fleet: ‎image omitted
+‎[19/12/25, 3:31:44 PM] Karthick Fleet: ‎image omitted
+‎[19/12/25, 3:31:44 PM] Karthick Fleet: ‎image omitted
+‎[19/12/25, 3:31:45 PM] Karthick Fleet: ‎image omitted
+‎[19/12/25, 3:31:45 PM] Karthick Fleet: ‎image omitted
+‎[19/12/25, 3:31:45 PM] Karthick Fleet: ‎image omitted
+‎[19/12/25, 3:31:46 PM] Karthick Fleet: ‎image omitted
+‎[19/12/25, 3:31:46 PM] Karthick Fleet: ‎image omitted
+‎[19/12/25, 3:31:47 PM] Karthick Fleet: ‎image omitted
+‎[19/12/25, 3:31:47 PM] Karthick Fleet: ‎image omitted
+[19/12/25, 5:21:13 PM] Joshva Verizon: Thanks a lot team, Ullas wants   to convey his regards to the team for our thoughtful gifts and wish us all great success. 🤩 
+Specials thanks to @⁨Armesh Verizon⁩ and @⁨Diviya  Fleet Team(verizon)⁩ 🎉🎉
+[19/12/25, 5:32:09 PM] Diviya  Fleet Team(verizon): Thanks team 🙏🙏
+[19/12/25, 5:33:33 PM] Armesh Verizon: Great Job team , thanks for all your support 👍
+‎[19/12/25, 5:58:16 PM] Vignesh Verizon: IMG20251219151457_01.jpg ‎document omitted
+‎[19/12/25, 5:58:17 PM] Vignesh Verizon: IMG20251219151450_01.jpg ‎document omitted
+‎[19/12/25, 5:58:17 PM] Vignesh Verizon: IMG20251219151452_01.jpg ‎document omitted
+‎[19/12/25, 5:58:25 PM] Vignesh Verizon: VID20251219151447.mp4 ‎document omitted
+‎[19/12/25, 5:58:39 PM] Vignesh Verizon: VID20251219151307.mp4 ‎document omitted
+[19/12/25, 6:06:05 PM] ~ Suresh:
+‎[19/12/25, 6:06:12 PM] ~ Suresh: ‎video omitted
+‎[19/12/25, 6:06:12 PM] ~ Suresh: ‎image omitted
+‎[19/12/25, 6:06:13 PM] ~ Suresh: ‎image omitted
+‎[19/12/25, 6:06:13 PM] ~ Suresh: ‎image omitted
+‎[19/12/25, 6:06:13 PM] ~ Suresh: ‎image omitted
+‎[19/12/25, 6:06:14 PM] ~ Suresh: ‎image omitted
+‎[19/12/25, 6:06:14 PM] ~ Suresh: ‎image omitted
+‎[19/12/25, 6:06:14 PM] ~ Suresh: ‎image omitted
+[19/12/25, 9:00:03 PM] Karthick Fleet: https://www.instagram.com/reel/DSX9SRWkvmT/?igsh=MWdueG5zc2wwOTl4
+[25/12/25, 7:25:16 AM] Karthick Fleet: Wishing you all a very Merry Christmas!  🎄 ☦️
+[25/12/25, 10:51:35 AM] ~ Tamilarasi Natarajan: Happy Christmas to all 🎉
+[31/12/25, 6:57:36 PM] ~ Prince Samuel: Happy New Years 2026 guys 🙂
+‎[31/12/25, 7:31:39 PM] Mohan Verizon: ‎image omitted
+[01/01/26, 12:10:39 AM] Armesh Verizon: Happy Newyear 2026.
+‎[01/01/26, 12:10:54 AM] Armesh Verizon: ‎GIF omitted
+[01/01/26, 12:10:57 AM] ~ Suresh: Happy new year guys
+‎[01/01/26, 12:11:09 AM] ~ Suresh: ‎image omitted
+[01/01/26, 12:12:03 AM] Anand Verizon: Happy new year🎊🎉
+‎[01/01/26, 12:12:27 AM] Karthick Fleet: ‎image omitted
+[01/01/26, 5:26:54 AM] Pradeep Verizon: Happy new year 🎊🎊
+‎[01/01/26, 7:12:33 AM] Alex David Verizon (SD): ‎image omitted
+[01/01/26, 8:05:53 AM] ~ Tamilarasi Natarajan: Happy New year
+[01/01/26, 8:47:10 AM] ~ Prince Daniel: Happy new year
+[03/01/26, 4:20:48 PM] Mohan Verizon: ‎Your security code with Mohan Verizon changed.
+‎[15/01/26, 7:40:29 AM] Joshva Verizon: ‎sticker omitted
+‎[15/01/26, 8:00:10 AM] Diviya  Fleet Team(verizon): ‎image omitted
+‎[15/01/26, 8:03:17 AM] Mohan Verizon: ‎GIF omitted
+[15/01/26, 8:20:51 AM] Pradeep Verizon: Happy Pongal .....
+[15/01/26, 8:34:43 AM] ~ Prince Samuel: இனிய பொங்கல் நல்வாழ்த்துக்கள்.
+‎[15/01/26, 9:12:50 AM] Karthick Fleet: ‎image omitted
+‎[15/01/26, 9:27:58 AM] Alex David Verizon (SD): ‎video omitted
+[15/01/26, 12:39:25 PM] ~ Tamilarasi Natarajan: Happy Pongal
+[17/01/26, 1:44:57 PM] Daniel Verizon: ‎Your security code with Daniel changed.
+[17/01/26, 1:44:58 PM] Daniel Verizon: ‎Your security code with Daniel changed.
+[28/01/26, 11:04:28 PM] Anand Verizon: ‎Your security code with Anand changed.
+[02/02/26, 9:58:53 AM] Daniel Verizon: ‎This message was deleted.
+[02/02/26, 9:59:37 AM] Armesh Verizon: 🧐🤔
+[03/02/26, 8:00:10 AM] Armesh Verizon: Team 6th floor booking is open
+[03/02/26, 8:00:33 AM] Armesh Verizon: Request every one to book through book a space
+[03/02/26, 8:00:46 AM] Armesh Verizon: 6401 to 6413
+[03/02/26, 8:00:57 AM] Armesh Verizon: I have booked 6406
+[03/02/26, 8:01:10 AM] Mohan Verizon: ‎This message was deleted.
+[03/02/26, 8:03:43 AM] Alex David Verizon (SD): Are we sitting in 6 th floor today ?
+[03/02/26, 8:11:34 AM] Mohan Verizon: Yes ..
+[03/02/26, 8:26:52 AM] Alex David Verizon (SD): Ok
+[03/02/26, 8:38:38 AM] Armesh Verizon: Did any one booked 6401 ?
+[03/02/26, 8:39:35 AM] Armesh Verizon: Let me know if any one booked the desk with the wks details?
+[03/02/26, 8:59:39 AM] Alex David Verizon (SD): Mine is 6405
+[03/02/26, 7:00:59 PM] Armesh Verizon: Guys we have organized Octopus tools training by our CICD tomorrow 1:30 to 2:00PM . This session will cover basics and tool usage. I have requested them to share knowledge materials post this session for your reference. Any questions or any specific demo will be arranged based on your interest and asks. Make yourself available and get benefited. We will proceed recording the  session for future reference.
+[04/02/26, 10:28:37 AM] Armesh Verizon: Training will be on Thursday 5th Feb 2026
+[05/02/26, 1:32:45 PM] Armesh Verizon: Reveal team, Octopus session started.
+[07/02/26, 6:49:09 AM] Diviya  Fleet Team(verizon): Hi team,
+Please confirm who from the Reveal team will be supporting Fleet EOG today 
+The night shift person Manohar is waiting to provide handover
+[07/02/26, 6:49:58 AM] Joshva Verizon: Aswath is in first shift
+[07/02/26, 6:53:56 AM] Diviya  Fleet Team(verizon): Ok josh thanks
+[10/02/26, 11:41:53 AM] Aswathama Verizon: ‎Your security code with Aswathama changed.
+[21/02/26, 10:02:41 PM] Karthick Fleet:
+‎[21/02/26, 10:02:41 PM] Karthick Fleet: Hi Team
+I am, ​Selling my *Brand new a Week old River Indie Gen 3 EV Electric Vehicle.* It’s a fantastic ride, but I have to let it go because my apartment complex just banned EV charging. My loss is your gain!
+Vehicle ​condition: Brand New (Delivered <10 days ago)
+​Warranty: 8-Year Extended Warranty included 🛡️ 
+​Payment: Fully paid (No EMI) 
+​Top-Tier Accessories: Tinted Visor, Back Rest, Floor Mat, Mobile Holder, Side Step, Throttle Grip, and 2 Helmets.
+​Price: *1,69,918*
+Product Info: https://www.rideriver.com/indie
+
+Available immediately
+
+​DM me if interested! ‎image omitted
+‎[21/02/26, 10:02:41 PM] Karthick Fleet: ‎image omitted
+‎[21/02/26, 10:02:42 PM] Karthick Fleet: ‎image omitted
+‎[21/02/26, 10:02:42 PM] Karthick Fleet: ‎image omitted
+‎[21/02/26, 10:02:43 PM] Karthick Fleet: ‎image omitted
+‎[21/02/26, 10:02:43 PM] Karthick Fleet: ‎image omitted
+‎[21/02/26, 10:02:44 PM] Karthick Fleet: ‎image omitted
+[22/02/26, 12:27:19 PM] Aswathama Verizon: ‎Your security code with Aswathama changed.
